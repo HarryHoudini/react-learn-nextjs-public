@@ -1,23 +1,11 @@
-import Link from 'next/link'
-import A from '../components/A';
+import MainContainer from "../components/MainContainer/MainContainer";
+
 
 const App = () => {
     return (
-        <div >
-            <div className="navbar">
-                <A href="/" text="Home"/>
-                <A href="/users" text="Дочки"/>
-            </div>
+        <MainContainer keywords="shit side rendering" title="Best app">
             <h1>Main page</h1>
-            <style jsx>
-                {`
-                    .navbar {
-                        background: orange;
-                        padding: 15px;
-                    }
-
-                `}</style>
-        </div>
+        </MainContainer>
     );
 };
 

@@ -1,7 +1,7 @@
 import Link from "next/link"
 import styles from './A.module.css'
 
-export default function A ({text, href}) {
+export default function A ({text, href, className}) {
 
     return(
         <Link href={href}>
